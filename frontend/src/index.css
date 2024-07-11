@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: black;
+    color: wheat;
+}
+
+/* src/index.css */
+@keyframes moveLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50px);
+    }
+  }
+  
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(50px);
+    }
+  }
+  
+  @keyframes pop {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .animate-moveLeft {
+    animation: moveLeft 2s ease-in-out forwards;
+  }
+  
+  .animate-moveRight {
+    animation: moveRight 2s ease-in-out forwards;
+  }
+  
+  .animate-pop {
+    animation: pop 1s ease-in-out forwards 2s;
+  }
+  
