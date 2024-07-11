@@ -22,11 +22,9 @@ export const Layout = () => {
         <Animation />
       ) : (
         <div>
-          <Container>
             <Navbar />
             <Outlet />
             <Footer />
-          </Container>
         </div>
       )}
     </div>

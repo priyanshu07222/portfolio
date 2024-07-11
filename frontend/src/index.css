@@ -2,48 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: black;
-    color: wheat;
+body {
+  background-color: rgb(6, 8, 28);
+  color: white;
 }
 
 /* src/index.css */
 @keyframes moveLeft {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-50px);
-    }
+  0% {
+    transform: translateX(0);
   }
-  
-  @keyframes moveRight {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(50px);
-    }
+  100% {
+    transform: translateX(-50px);
   }
-  
-  @keyframes pop {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(0);
   }
-  
-  .animate-moveLeft {
-    animation: moveLeft 2s ease-in-out forwards;
+  100% {
+    transform: translateX(50px);
   }
-  
-  .animate-moveRight {
-    animation: moveRight 2s ease-in-out forwards;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
   }
-  
-  .animate-pop {
-    animation: pop 1s ease-in-out forwards 2s;
+  100% {
+    opacity: 1;
   }
-  
+}
+
+.animate-moveLeft {
+  animation: moveLeft 2s ease-in-out forwards;
+}
+
+.animate-moveRight {
+  animation: moveRight 2s ease-in-out forwards;
+}
+
+.animate-pop {
+  animation: pop 1s ease-in-out forwards 2s;
+}
