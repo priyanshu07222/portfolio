@@ -29,7 +29,7 @@ export default {
           '50%': { transform: 'translateY(15px)' },
         },
         scrollLeft: {
-          '0%': { transform: 'translateX(100%)' },
+          '0%': { transform: 'translateX(0%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
         scrollRight: {
@@ -41,8 +41,7 @@ export default {
       animation: {
         typing: "typing 3s steps(20) infinite alternate, blink .7s infinite",
         wave: 'wave 5s infinite',
-        scrollLeft: 'scrollLeft 10s linear infinite',
-        scrollRight: 'scrollRight 10s linear infinite',
+        scrollLeft: 'scrollLeft 30s linear infinite',
       },
       colors: {
         primary: {

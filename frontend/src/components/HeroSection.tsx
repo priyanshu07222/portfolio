@@ -4,7 +4,7 @@ import { Container } from "./Container";
 export const HeroSection = () => {
   return (
     <Container>
-      <div className="grid grid-cols-2 items-center my-10">
+      <div className="grid grid-cols-2 items-center my-10 h-[90vh]">
         <div className="">
           <p className="text-5xl font-bold">Hi, I'm</p>
           <h1 className="text-7xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 font-extrabold animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 ">

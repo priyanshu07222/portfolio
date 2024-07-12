@@ -20,11 +20,11 @@ import {
 
 export const Skill = () => {
   return (
-    <div className="bg-slate-900">
+    <div className="bg-black drop-shadow-2xl h-[50vh] overflow-hidden my-10">
       <Container>
         <div className="py-8">
-          <h2 className="text-center text-4xl font-bold  ">Skills</h2>
-          <div className="flex flex-col py-8 gap-8 overflow-hidden whitespace-nowrap">
+          <h2 className="text-center text-4xl font-light uppercase tracking-[8px] font-mono ">Skills</h2>
+          <div className="flex flex-col py-8 gap-8 overflow-hidden whitespace-nowrap  rounded-full">
             <div className="inline-flex animate-scrollLeft space-x-4">
               <Card>
                 <RiHtml5Fill className="text-7xl" />
@@ -45,10 +45,7 @@ export const Skill = () => {
                 <RiTailwindCssFill className="text-7xl" />
               </Card>
               {/* ---- */}
-        
-
-            </div>
-            <div className="inline-flex animate-scrollRight space-x-4">
+      
               <Card>
                 <RiNodejsFill className="text-7xl" />
               </Card>
