@@ -7,6 +7,15 @@ import Link from "next/link"
 const ProjectsSection = () => {
   const projects = [
     {
+      title: "Movr",
+      description:
+        "Compete. Trade. Win., an on-chain paper trading platform on Solana, enabling users to participate in live, real-time trading duels with a small contest entry fee. Built using Solana, Anchor, MagicBlock, and Next.js. Designed contest-based trading mechanics with real-time updates. Focused on low-latency execution and seamless on-chain/off-chain coordination for live trading experiences.",
+      tech: ["Solana", "Anchor", "MagicBlock", "Pyth", "Next.js"],
+      github: "https://github.com/Fahad-Dezloper/Movr",
+      demo: "https://www.movr.fun/",
+      badges: ["Solana", "DeFi"],
+    },
+    {
       title: "NOYEAH",
       description:
         "Noyeah is a decentralized opinion trading platform built on Solana. Users can participate in prediction contests by staking SOL and selecting an outcome. Winners are rewarded based on a bonding curve pricing model and correct predictions.",
